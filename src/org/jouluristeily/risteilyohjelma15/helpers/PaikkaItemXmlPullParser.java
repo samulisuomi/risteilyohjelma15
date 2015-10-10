@@ -1,9 +1,9 @@
-package org.jouluristeily.risteilyohjelma14.helpers;
+package org.jouluristeily.risteilyohjelma15.helpers;
 
 import java.io.InputStream;
 import java.util.ArrayList;
 
-import org.jouluristeily.risteilyohjelma14.beans.PaikkaItem;
+import org.jouluristeily.risteilyohjelma15.beans.PaikkaItem;
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserFactory;
 

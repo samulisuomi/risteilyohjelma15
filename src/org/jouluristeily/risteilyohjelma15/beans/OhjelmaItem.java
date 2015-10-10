@@ -1,6 +1,6 @@
-package org.jouluristeily.risteilyohjelma14.beans;
+package org.jouluristeily.risteilyohjelma15.beans;
 
-import org.jouluristeily.risteilyohjelma14.helpers.TimeHelper;
+import org.jouluristeily.risteilyohjelma15.helpers.TimeHelper;
 
 public class OhjelmaItem {
 

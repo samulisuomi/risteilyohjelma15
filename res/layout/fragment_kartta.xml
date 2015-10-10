@@ -49,7 +49,7 @@
             android:clickable="true" />    
     </LinearLayout>
 
-   <org.jouluristeily.risteilyohjelma14.helpers.TouchImageView
+   <org.jouluristeily.risteilyohjelma15.helpers.TouchImageView
         android:id="@+id/kartta"
     	android:layout_weight="1"
     	android:layout_height="match_parent"

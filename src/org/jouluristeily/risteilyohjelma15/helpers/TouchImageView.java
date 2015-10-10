@@ -1,4 +1,4 @@
-package org.jouluristeily.risteilyohjelma14.helpers;
+package org.jouluristeily.risteilyohjelma15.helpers;
 
 //HUGE tanks to Michael Ortiz:
 //https://github.com/MikeOrtiz/TouchImageView
@@ -11,7 +11,7 @@ package org.jouluristeily.risteilyohjelma14.helpers;
  * Extends Android ImageView to include pinch zooming and panning.
  */
 
-import org.jouluristeily.risteilyohjelma14.StartActivity;
+import org.jouluristeily.risteilyohjelma15.StartActivity;
 
 import android.content.Context;
 import android.graphics.Matrix;

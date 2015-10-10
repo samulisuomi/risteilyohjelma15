@@ -1,10 +1,10 @@
-package org.jouluristeily.risteilyohjelma14;
+package org.jouluristeily.risteilyohjelma15;
 
-import org.jouluristeily.risteilyohjelma14.content.AukioloFragment;
-import org.jouluristeily.risteilyohjelma14.content.FeedFragment;
-import org.jouluristeily.risteilyohjelma14.content.HyttiFragment;
-import org.jouluristeily.risteilyohjelma14.content.KarttaFragment;
-import org.jouluristeily.risteilyohjelma14.content.OhjelmaFragment;
+import org.jouluristeily.risteilyohjelma15.content.AukioloFragment;
+import org.jouluristeily.risteilyohjelma15.content.FeedFragment;
+import org.jouluristeily.risteilyohjelma15.content.HyttiFragment;
+import org.jouluristeily.risteilyohjelma15.content.KarttaFragment;
+import org.jouluristeily.risteilyohjelma15.content.OhjelmaFragment;
 
 import android.content.Context;
 import android.os.Bundle;

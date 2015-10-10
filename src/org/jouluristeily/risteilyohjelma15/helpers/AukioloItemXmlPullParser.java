@@ -1,10 +1,10 @@
-package org.jouluristeily.risteilyohjelma14.helpers;
+package org.jouluristeily.risteilyohjelma15.helpers;
 
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.jouluristeily.risteilyohjelma14.beans.OhjelmaItem;
+import org.jouluristeily.risteilyohjelma15.beans.AukioloItem;
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserFactory;
 
@@ -13,25 +13,22 @@ import android.content.Context;
 /**
  * Inspired by FoamyGuy (https://github.com/FoamyGuy/StackSites)
  */
-public class OhjelmaItemXmlPullParser {
+public class AukioloItemXmlPullParser {
 
-    static final String KEY_TAPAHTUMA = "tapahtuma";
+    static final String KEY_AUKIOLO = "aukiolo";
     static final String KEY_ALKAA = "alkaa";
     static final String KEY_PAATTYY = "paattyy";
-    static final String KEY_NIMI = "nimi";
-    static final String KEY_PAIKKA = "paikka";
-    static final String KEY_KUVAUS = "kuvaus";
-    static final String KEY_KANSI = "kansi";
+    static final String KEY_LISATIETO = "lisatieto";
 
-    public static List<OhjelmaItem> getOhjelmaItemsFromXml(Context ctx,
+    public static List<AukioloItem> getAukioloItemsFromXml(Context ctx,
             int xmlResourceId) {
 
-        // List of OhjelmaItems that we will return
-        List<OhjelmaItem> ohjelmaItems;
-        ohjelmaItems = new ArrayList<OhjelmaItem>();
+        // List of AukioloItems that we will return
+        List<AukioloItem> aukioloItems;
+        aukioloItems = new ArrayList<AukioloItem>();
 
-        // temp holder for current OhejalmaItem while parsing
-        OhjelmaItem currentOhjelmaItem = null;
+        // temp holder for current AukioloItem while parsing
+        AukioloItem currentAukioloItem = null;
         // temp holder for current text value while parsing
         String currentText = "";
 
@@ -57,10 +54,10 @@ public class OhjelmaItemXmlPullParser {
                 // React to different event types appropriately
                 switch (eventType) {
                 case XmlPullParser.START_TAG:
-                    if (tagname.equalsIgnoreCase(KEY_TAPAHTUMA)) {
-                        // If we are starting a new <tapahtuma> block we need
+                    if (tagname.equalsIgnoreCase(KEY_AUKIOLO)) {
+                        // If we are starting a new <aukiolo> block we need
                         // a new OhjelmaItem object to represent it
-                        currentOhjelmaItem = new OhjelmaItem();
+                        currentAukioloItem = new AukioloItem();
                     }
                     break;
 
@@ -70,27 +67,17 @@ public class OhjelmaItemXmlPullParser {
                     break;
 
                 case XmlPullParser.END_TAG:
-                    if (tagname.equalsIgnoreCase(KEY_TAPAHTUMA)) {
-                        ohjelmaItems.add(currentOhjelmaItem);
+                    if (tagname.equalsIgnoreCase(KEY_AUKIOLO)) {
+                        aukioloItems.add(currentAukioloItem);
 
                     } else if (tagname.equalsIgnoreCase(KEY_ALKAA)) {
-                        currentOhjelmaItem.setAlkaa(currentText);
+                        currentAukioloItem.setAlkaa(currentText);
 
                     } else if (tagname.equalsIgnoreCase(KEY_PAATTYY)) {
-                        currentOhjelmaItem.setPaattyy(currentText);
+                        currentAukioloItem.setPaattyy(currentText);
 
-                    } else if (tagname.equalsIgnoreCase(KEY_NIMI)) {
-                        currentOhjelmaItem.setNimi(currentText);
-
-                    } else if (tagname.equalsIgnoreCase(KEY_PAIKKA)) {
-                        currentOhjelmaItem.setPaikka(currentText);
-
-                    } else if (tagname.equalsIgnoreCase(KEY_KUVAUS)) {
-                        currentOhjelmaItem.setKuvaus(currentText);
-
-                    } else if (tagname.equalsIgnoreCase(KEY_KANSI)) {
-                        currentOhjelmaItem.setKansi(currentText);
-
+                    } else if (tagname.equalsIgnoreCase(KEY_LISATIETO)) {
+                        currentAukioloItem.setLisatieto(currentText);
                     }
                     break;
 
@@ -106,6 +93,6 @@ public class OhjelmaItemXmlPullParser {
         }
 
         // return the populated list.
-        return ohjelmaItems;
+        return aukioloItems;
     }
 }

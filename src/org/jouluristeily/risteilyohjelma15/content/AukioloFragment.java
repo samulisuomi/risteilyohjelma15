@@ -1,14 +1,14 @@
-package org.jouluristeily.risteilyohjelma14.content;
+package org.jouluristeily.risteilyohjelma15.content;
 
 import java.util.List;
 
-import org.jouluristeily.risteilyohjelma14.R;
-import org.jouluristeily.risteilyohjelma14.StartActivity;
-import org.jouluristeily.risteilyohjelma14.beans.PaikkaItem;
-import org.jouluristeily.risteilyohjelma14.helpers.AukioloItemXmlPullParser;
-import org.jouluristeily.risteilyohjelma14.helpers.PaikkaItemXmlPullParser;
-import org.jouluristeily.risteilyohjelma14.helpers.SeparatedPaikkaAdapter;
-import org.jouluristeily.risteilyohjelma14.helpers.TimeHelper;
+import org.jouluristeily.risteilyohjelma15.R;
+import org.jouluristeily.risteilyohjelma15.StartActivity;
+import org.jouluristeily.risteilyohjelma15.beans.PaikkaItem;
+import org.jouluristeily.risteilyohjelma15.helpers.AukioloItemXmlPullParser;
+import org.jouluristeily.risteilyohjelma15.helpers.PaikkaItemXmlPullParser;
+import org.jouluristeily.risteilyohjelma15.helpers.SeparatedPaikkaAdapter;
+import org.jouluristeily.risteilyohjelma15.helpers.TimeHelper;
 
 import android.annotation.SuppressLint;
 import android.app.AlertDialog;

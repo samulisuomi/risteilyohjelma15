@@ -1,7 +1,7 @@
-package org.jouluristeily.risteilyohjelma14.content;
+package org.jouluristeily.risteilyohjelma15.content;
 
-import org.jouluristeily.risteilyohjelma14.R;
-import org.jouluristeily.risteilyohjelma14.StartActivity;
+import org.jouluristeily.risteilyohjelma15.R;
+import org.jouluristeily.risteilyohjelma15.StartActivity;
 
 import android.annotation.SuppressLint;
 import android.content.ContentResolver;

@@ -1,12 +1,12 @@
-package org.jouluristeily.risteilyohjelma14.content;
+package org.jouluristeily.risteilyohjelma15.content;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
 
-import org.jouluristeily.risteilyohjelma14.R;
-import org.jouluristeily.risteilyohjelma14.StartActivity;
+import org.jouluristeily.risteilyohjelma15.R;
+import org.jouluristeily.risteilyohjelma15.StartActivity;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;

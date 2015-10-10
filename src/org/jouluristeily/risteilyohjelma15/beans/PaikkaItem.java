@@ -1,4 +1,4 @@
-package org.jouluristeily.risteilyohjelma14.beans;
+package org.jouluristeily.risteilyohjelma15.beans;
 
 import java.util.List;
 

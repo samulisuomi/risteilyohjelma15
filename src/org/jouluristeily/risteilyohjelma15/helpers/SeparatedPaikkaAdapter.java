@@ -1,12 +1,12 @@
-package org.jouluristeily.risteilyohjelma14.helpers;
+package org.jouluristeily.risteilyohjelma15.helpers;
 
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.jouluristeily.risteilyohjelma14.R;
-import org.jouluristeily.risteilyohjelma14.beans.PaikkaItem;
+import org.jouluristeily.risteilyohjelma15.R;
+import org.jouluristeily.risteilyohjelma15.beans.PaikkaItem;
 
 import android.app.Activity;
 import android.view.LayoutInflater;

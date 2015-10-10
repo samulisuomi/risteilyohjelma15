@@ -1,6 +1,6 @@
-package org.jouluristeily.risteilyohjelma14;
+package org.jouluristeily.risteilyohjelma15;
 
-import org.jouluristeily.risteilyohjelma14.content.OhjelmaFragment;
+import org.jouluristeily.risteilyohjelma15.content.OhjelmaFragment;
 
 import android.app.Activity;
 import android.os.Bundle;

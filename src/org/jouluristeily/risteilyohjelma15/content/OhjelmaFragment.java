@@ -1,11 +1,11 @@
-package org.jouluristeily.risteilyohjelma14.content;
+package org.jouluristeily.risteilyohjelma15.content;
 
 import java.util.List;
 
-import org.jouluristeily.risteilyohjelma14.R;
-import org.jouluristeily.risteilyohjelma14.StartActivity;
-import org.jouluristeily.risteilyohjelma14.beans.OhjelmaItem;
-import org.jouluristeily.risteilyohjelma14.helpers.OhjelmaItemXmlPullParser;
+import org.jouluristeily.risteilyohjelma15.R;
+import org.jouluristeily.risteilyohjelma15.StartActivity;
+import org.jouluristeily.risteilyohjelma15.beans.OhjelmaItem;
+import org.jouluristeily.risteilyohjelma15.helpers.OhjelmaItemXmlPullParser;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
