@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Risteilyohjelma 14</string>
+    <string name="action_settings">Asetukset</string>
+    <string name="action_paivita">Päivitä</string>
+    <string name="action_poista_valitut">Poista valitut</string>
+    <string name="action_hyppaa_nykyiseen">Hyppää nykyiseen</string>
+    <string name="tallenna">Tallenna</string>
+    <string name="hyttilaiset">Hyttiläiset</string>
+    <string name="nro">Nro</string>
+    <string name="dialog_hytti_title">Hyttien poistaminen</string>
+	<string name="dialog_haluatko_poistaa_hytit">Haluatko poistaa valitut hytit?</string>
+	<string name="kylla">Kyllä</string>
+	<string name="peruuta">Peruuta</string>
+	<string name="väliviiva">-</string>
+	<string name="atmerkki">"@"</string>
+	<string name="suomenaikadisclaimer">Ajat ovat Suomen aikoja - muutokset mahdollisia.</string>
+	<string name="sulje">Sulje</string>
+	<string name="hyttimuistio_tyhja_lista">Et ole tallentanut vielä yhtään hyttiä muistiin!</string>
+	<string name="risteilyfeed_instagram_text">Jouluristeilyhetkiä Instagramista! Jaa omasi tägillä #jouluristeily ➙</string>
+	<string name="risteilyfeed_disclaimer_text">Instagram-feedi käyttää verkkoyhteyttä vain kun itse painat Päivitä-painiketta. Se ei myöskään toimi verkkovierailun aikana.</string>
+	<string name="paivita">Päivitä</string>
+	<string name="ok">OK</string>
+</resources>
