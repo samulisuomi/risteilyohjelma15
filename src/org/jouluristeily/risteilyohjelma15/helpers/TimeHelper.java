@@ -8,8 +8,8 @@ import java.util.TimeZone;
 
 public class TimeHelper {
 
-    private static final String TO_PVM = "2014-11-27";
-    private static final String PE_PVM = "2014-11-28";
+    private static final String TO_PVM = "2015-11-26";
+    private static final String PE_PVM = "2015-11-27";
 
     public static String getCurrentTime() {
         DateFormat df = new SimpleDateFormat("HH:mm");
