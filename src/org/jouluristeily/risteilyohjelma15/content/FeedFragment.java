@@ -165,7 +165,10 @@ public class FeedFragment extends SherlockFragment {
         webSettings.setAppCacheEnabled(true);
         webSettings.setJavaScriptEnabled(true);
         webSettings.setDomStorageEnabled(true);
-        webSettings.setAllowUniversalAccessFromFileURLs(true);
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
+            webSettings.setAllowUniversalAccessFromFileURLs(true);
+        }
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
             WebView.setWebContentsDebuggingEnabled(true);
