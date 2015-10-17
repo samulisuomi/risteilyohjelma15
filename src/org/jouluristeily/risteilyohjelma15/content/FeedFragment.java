@@ -46,8 +46,8 @@ public class FeedFragment extends SherlockFragment {
     private static TextView disclaimerText;
     private static ImageView instagram;
     private static Button disclaimerButton;
-    private static final String URL_FEED = "http://sasuomi.github.io/risteilyfeed/";
-    private static final String URL_FEED_CACHE = "http://sasuomi.github.io/risteilyfeed/#cache";
+    private static final String URL_FEED = "http://samuli.xyz/risteilyfeed/";
+    private static final String URL_FEED_CACHE = "http://samuli.xyz/risteilyfeed/#cache";
     private static final String PREFS_NAME = "FeedFile";
     private static SharedPreferences sp;
     private static int errorCount;
@@ -118,13 +118,15 @@ public class FeedFragment extends SherlockFragment {
         feedView.setWebViewClient(new WebViewClient() {
             @Override
             public boolean shouldOverrideUrlLoading(WebView view, String url) {
-                if (url.equals(URL_FEED) || url.equals(URL_FEED_CACHE)) {
+                if (url.contains("risteilyfeed")) {
                     feedView.loadUrl(url);
+                    Log.d("urlEquals", "url_feed tai erl_feed_cache");
                     return true;
                 } else {
                     Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri
                             .parse(url));
                     startActivity(browserIntent);
+                    Log.d("urlEquals", "url else");
                     return true;
                 }
             }
