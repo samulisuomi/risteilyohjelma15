@@ -23,7 +23,7 @@ local.properties
 proguard/
 
 # Stuff that I decided to ignore after setting up on multiple computers:
-.classpath
+#.classpath
 lint.xml
-project.properties
+#project.properties
 .settings/
