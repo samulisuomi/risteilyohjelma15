@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ohjelma>
+<ohjelma version="1">>
 	<tapahtuma>
 		<alkaa>20:15</alkaa>
 		<paattyy></paattyy>
@@ -9,20 +9,20 @@
 		<kansi></kansi>
 	</tapahtuma>
 	<tapahtuma>
+		<alkaa>20:15</alkaa>
+		<paattyy>23:00</paattyy>
+		<nimi>Pianisti Pearl</nimi>
+		<paikka>Piano Bar</paikka>
+		<kuvaus></kuvaus>
+		<kansi>7</kansi>
+	</tapahtuma>
+	<tapahtuma>
 		<alkaa>21:00</alkaa>
 		<paattyy>22:30</paattyy>
 		<nimi>Tervetulotilaisuus</nimi>
 		<paikka>Starlight Palace</paikka>
-		<kuvaus>Ohjelmassa arvontaa, komiikkaa, sirkus, Turku Dance Crew... LAL jakaa opiskelijastipendit aktiivitoimijoilleen.</kuvaus>
-		<kansi>6-7</kansi>
-	</tapahtuma>
-	<tapahtuma>
-		<alkaa>20:15</alkaa>
-		<paattyy>23:00</paattyy>
-		<nimi>Pianomusiikkia Naissoo Duo</nimi>
-		<paikka>Piano Bar</paikka>
 		<kuvaus></kuvaus>
-		<kansi>7</kansi>
+		<kansi>6-7</kansi>
 	</tapahtuma>
 	<tapahtuma>
 		<alkaa>21:15</alkaa>
@@ -34,8 +34,8 @@
 	</tapahtuma>
 	<tapahtuma>
 		<alkaa>21:30</alkaa>
-		<paattyy>23:00</paattyy>
-		<nimi>Karaoke</nimi>
+		<paattyy>24:00</paattyy>
+		<nimi>Laivan karaoke</nimi>
 		<paikka>Iskelmäbaari</paikka>
 		<kuvaus></kuvaus>
 		<kansi>6</kansi>
@@ -43,26 +43,18 @@
 	<tapahtuma>
 		<alkaa>22:30</alkaa>
 		<paattyy>23:30</paattyy>
-		<nimi>Bad King</nimi>
+		<nimi>Less Income</nimi>
 		<paikka>Starlight Palace</paikka>
 		<kuvaus></kuvaus>
 		<kansi>6-7</kansi>
-	</tapahtuma>		
+	</tapahtuma>
 	<tapahtuma>
 		<alkaa>23:00</alkaa>
 		<paattyy>01:00</paattyy>
-		<nimi>NHL 15 -skabailua</nimi>
+		<nimi>NHL 16 -skabailua</nimi>
 		<paikka>Pub</paikka>
 		<kuvaus></kuvaus>
 		<kansi>7</kansi>
-	</tapahtuma>
-	<tapahtuma>
-		<alkaa>23:15</alkaa>
-		<paattyy>01:30</paattyy>
-		<nimi>DJ soittaa Ysärijysäriä</nimi>
-		<paikka>Iskelmäbaari</paikka>
-		<kuvaus></kuvaus>
-		<kansi>6</kansi>
 	</tapahtuma>
 	<tapahtuma>
 		<alkaa>23:15</alkaa>
@@ -74,16 +66,8 @@
 	</tapahtuma>
 	<tapahtuma>
 		<alkaa>23:30</alkaa>
-		<paattyy>00:00</paattyy>
-		<nimi>Koomikko Ville Saarenketo</nimi>
-		<paikka>Starlight Palace</paikka>
-		<kuvaus></kuvaus>
-		<kansi>6-7</kansi>
-	</tapahtuma>
-	<tapahtuma>
-		<alkaa>00:00</alkaa>
-		<paattyy>01:00</paattyy>
-		<nimi>Alice Airbuzz</nimi>
+		<paattyy>00:30</paattyy>
+		<nimi>The 5th of April</nimi>
 		<paikka>Starlight Palace</paikka>
 		<kuvaus></kuvaus>
 		<kansi>6-7</kansi>
@@ -97,17 +81,25 @@
 		<kansi>5</kansi>
 	</tapahtuma>
 	<tapahtuma>
-		<alkaa>01:00</alkaa>
-		<paattyy>02:00</paattyy>
-		<nimi>Teflon Brothers</nimi>
+		<alkaa>00:00</alkaa>
+		<paattyy>01:30</paattyy>
+		<nimi>Ysärispesialisti DJ Marccu</nimi>
+		<paikka>Iskelmäbaari</paikka>
+		<kuvaus></kuvaus>
+		<kansi>6</kansi>
+	</tapahtuma>
+	<tapahtuma>
+		<alkaa>00:30</alkaa>
+		<paattyy>01:30</paattyy>
+		<nimi>Stig</nimi>
 		<paikka>Starlight Palace</paikka>
-		<kuvaus>Supersuosittu Teflon Brothers Starlight Palacessa!</kuvaus>
+		<kuvaus></kuvaus>
 		<kansi>6-7</kansi>
 	</tapahtuma>
 	<tapahtuma>
-		<alkaa>02:00</alkaa>
+		<alkaa>01:30</alkaa>
 		<paattyy>04:30</paattyy>
-		<nimi>DJ:t Anza ja Peter Pan</nimi>
+		<nimi>DJ JQS &amp; friends</nimi>
 		<paikka>Starlight Palace</paikka>
 		<kuvaus></kuvaus>
 		<kansi>6-7</kansi>
@@ -115,7 +107,7 @@
 	<tapahtuma>
 		<alkaa>11:30</alkaa>
 		<paattyy>12:15</paattyy>
-		<nimi>Pianomusiikkia Naissoo Duo</nimi>
+		<nimi>Pianisti Pearl</nimi>
 		<paikka>Piano Bar</paikka>
 		<kuvaus></kuvaus>
 		<kansi>7</kansi>
@@ -131,14 +123,14 @@
 	<tapahtuma>
 		<alkaa>12:00</alkaa>
 		<paattyy>15:00</paattyy>
-		<nimi>NHL 15 -skabailua</nimi>
+		<nimi>NHL 16 -skabailua</nimi>
 		<paikka>Pub</paikka>
 		<kuvaus>Skabailut jatkuvat.</kuvaus>
 		<kansi>7</kansi>
 	</tapahtuma>
 	<tapahtuma>
 		<alkaa>12:30</alkaa>
-		<paattyy></paattyy>
+		<paattyy>13:00</paattyy>
 		<nimi>Super Jackpot Bingo</nimi>
 		<paikka>Iskelmäbaari</paikka>
 		<kuvaus></kuvaus>
@@ -146,24 +138,16 @@
 	</tapahtuma>
 	<tapahtuma>
 		<alkaa>13:00</alkaa>
-		<paattyy>13:30</paattyy>
-		<nimi>Jouluristeilyn Bingo</nimi>
+		<paattyy>15:30</paattyy>
+		<nimi>Karaoke</nimi>
 		<paikka>Iskelmäbaari</paikka>
 		<kuvaus></kuvaus>
 		<kansi>6</kansi>
 	</tapahtuma>
 	<tapahtuma>
-		<alkaa>13:30</alkaa>
-		<paattyy>15:00</paattyy>
-		<nimi>Karaoke</nimi>
-		<paikka>Iskelmäbaari</paikka>
-		<kuvaus></kuvaus>
-		<kansi>6</kansi>
-	</tapahtuma>	
-	<tapahtuma>
 		<alkaa>14:00</alkaa>
 		<paattyy>16:00</paattyy>
-		<nimi>Jouluristeilyn Rastikierros</nimi>
+		<nimi>Jouluristeilyn rastikierros ympäri laivaa</nimi>
 		<paikka>Piano Bar (lähtö)</paikka>
 		<kuvaus></kuvaus>
 		<kansi>7</kansi>
@@ -186,24 +170,16 @@
 	</tapahtuma>	
 	<tapahtuma>
 		<alkaa>15:30</alkaa>
-		<paattyy>17:00</paattyy>
-		<nimi>Bilebändi J. Partynen</nimi>
-		<paikka>Starlight Palace</paikka>
-		<kuvaus>Bilebändi J. Partynen nostaa paluumatkalla bilefiiliksen korkeuksiin.</kuvaus>
-		<kansi>6-7</kansi>
-	</tapahtuma>
-	<tapahtuma>
-		<alkaa>15:30</alkaa>
 		<paattyy>17:15</paattyy>
-		<nimi>DJ soittaa Ysärijysäriä</nimi>
+		<nimi>Ysärispesialisti DJ Marccu</nimi>
 		<paikka>Iskelmäbaari</paikka>
 		<kuvaus></kuvaus>
 		<kansi>6</kansi>
 	</tapahtuma>
 	<tapahtuma>
-		<alkaa>17:00</alkaa>
-		<paattyy>17:15</paattyy>
-		<nimi>Rastikierroksen palkintojenjako</nimi>
+		<alkaa>15:30</alkaa>
+		<paattyy>17:00</paattyy>
+		<nimi>Bilebändi Blaster</nimi>
 		<paikka>Starlight Palace</paikka>
 		<kuvaus></kuvaus>
 		<kansi>6-7</kansi>
@@ -211,13 +187,21 @@
 	<tapahtuma>
 		<alkaa>16:45</alkaa>
 		<paattyy>17:30</paattyy>
-		<nimi>Pianomusiikkia Naissoo Duo</nimi>
+		<nimi>Pianisti Pearl</nimi>
 		<paikka>Piano Bar</paikka>
 		<kuvaus></kuvaus>
 		<kansi>7</kansi>
 	</tapahtuma>
 	<tapahtuma>
 		<alkaa>17:15</alkaa>
+		<paattyy>17:30</paattyy>
+		<nimi>Rastikierroksen palkintojenjako</nimi>
+		<paikka>Starlight Palace</paikka>
+		<kuvaus></kuvaus>
+		<kansi>6-7</kansi>
+	</tapahtuma>
+	<tapahtuma>
+		<alkaa>17:30</alkaa>
 		<paattyy>18:30</paattyy>
 		<nimi>DJ Tomi Aikio</nimi>
 		<paikka>Starlight Palace</paikka>
@@ -229,7 +213,7 @@
 		<paattyy></paattyy>
 		<nimi>Baltic Princess saapuu Turkuun</nimi>
 		<paikka></paikka>
-		<kuvaus>After Lecturen miehistö kiittää ja toivottaa teidät tervetulleeksi uudestaan jälleen ensi vuonna.</kuvaus>
+		<kuvaus></kuvaus>
 		<kansi></kansi>
 	</tapahtuma>		
 </ohjelma>
