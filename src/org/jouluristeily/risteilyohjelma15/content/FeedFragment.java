@@ -148,7 +148,7 @@ public class FeedFragment extends SherlockFragment {
                 }
                 if (consoleMessage.message().contains("ERR_CACHE_MISS")) {
                     Log.i("ro15", "cache miss error");
-                    feedView.setVisibility(View.VISIBLE);
+                    feedView.setVisibility(View.GONE);
                     showErrorToast("ERR_CACHE_MISS");
                 }
                 return super.onConsoleMessage(consoleMessage);
