@@ -138,17 +138,18 @@ public class FeedFragment extends SherlockFragment {
             public boolean onConsoleMessage(ConsoleMessage consoleMessage) {
                 if (consoleMessage.message()
                         .contains("Uncaught ReferenceError")) {
-                    Log.i("ro14", "reference error");
+                    Log.i("ro15", "reference error");
                     if (errorCount < 5) {
                         loadFeedFromCache();
                         errorCount++;
                     } else {
-                        CharSequence text = "Tapahtui virhe välimuistin käsittelyssä. Päivitä sivu.";
-                        int duration = Toast.LENGTH_SHORT;
-                        Toast toast = Toast.makeText(getSherlockActivity(),
-                                text, duration);
-                        toast.show();
+                        showErrorToast("");
                     }
+                }
+                if (consoleMessage.message().contains("ERR_CACHE_MISS")) {
+                    Log.i("ro15", "cache miss error");
+                    feedView.setVisibility(View.VISIBLE);
+                    showErrorToast("ERR_CACHE_MISS");
                 }
                 return super.onConsoleMessage(consoleMessage);
             }
@@ -184,8 +185,7 @@ public class FeedFragment extends SherlockFragment {
         getSherlockActivity().getSupportActionBar().setLogo(
                 R.drawable.title_feed);
         StartActivity.sm.setTouchModeAbove(SlidingMenu.TOUCHMODE_FULLSCREEN);
-
-        // Inflate the layout for this fragment
+        feedView.setVisibility(View.VISIBLE);
         return feedlayout;
 
     }
@@ -226,6 +226,7 @@ public class FeedFragment extends SherlockFragment {
             e.printStackTrace();
         }
         feedView.getSettings().setCacheMode(WebSettings.LOAD_NO_CACHE);
+        feedView.setVisibility(View.VISIBLE);
 
         if (!isNetworkAvailable() || isRoaming == 1) { // loading offline
             CharSequence text = "Ei verkkoyhteyttä tai verkkovierailu käynnissä";
@@ -289,5 +290,14 @@ public class FeedFragment extends SherlockFragment {
 
     public static void setDisclaimerChecked(Context context) {
         saveToSP(context, "FLAG_DISCLAIMER_CHECKED", "1");
+    }
+
+    public void showErrorToast(String extraInfo) {
+        String append = extraInfo.equalsIgnoreCase("") ? "" : " " + extraInfo;
+        CharSequence text = "Tapahtui virhe välimuistin käsittelyssä. Päivitä sivu."
+                + append;
+        int duration = Toast.LENGTH_SHORT;
+        Toast toast = Toast.makeText(getSherlockActivity(), text, duration);
+        toast.show();
     }
 }
