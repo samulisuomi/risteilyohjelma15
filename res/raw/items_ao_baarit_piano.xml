@@ -1,12 +1,22 @@
-﻿<ao>
+<ao>
 	<aukiolo>
 		<alkaa>20:15</alkaa>
-		<paattyy>24:00</paattyy>
+		<paattyy>00:30</paattyy>
 		<lisatieto></lisatieto>
+	</aukiolo>
+	<aukiolo>
+		<alkaa>21:00</alkaa>
+		<paattyy>00:30</paattyy>
+		<lisatieto>Casino</lisatieto>
 	</aukiolo>
 	<aukiolo>
 		<alkaa>09:00</alkaa>
 		<paattyy>19:00</paattyy>
 		<lisatieto></lisatieto>
+	</aukiolo>
+	<aukiolo>
+		<alkaa>16:00</alkaa>
+		<paattyy>18:00</paattyy>
+		<lisatieto>Casino</lisatieto>
 	</aukiolo>
 </ao>

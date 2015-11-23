@@ -64,8 +64,10 @@ public class AukioloItem {
 
     @Override
     public String toString() {
-        String palautettava = this.getAlkaa() + "–" + this.getPaattyy() + " "
+        String infoSection = this.getLisatieto().length() < 2 ? "" : " "
                 + this.getLisatieto();
+        String palautettava = this.getAlkaa() + "–" + this.getPaattyy()
+                + infoSection;
         if (this.alkaa.length() < 4) {
             palautettava = "Suljettu jouluristeilyn ajan.";
         }

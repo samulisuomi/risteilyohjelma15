@@ -131,7 +131,7 @@ public class AukioloFragment extends SherlockFragment {
                     current.setAukiolot(AukioloItemXmlPullParser
                             .getAukioloItemsFromXml(getActivity(),
                                     R.raw.items_ao_baarit_starlight));
-                } else if (current.getNimi().equals("Iskelmäbaari")) {
+                } else if (current.getNimi().equals("Iskelmä Baari")) {
                     current.setAukiolot(AukioloItemXmlPullParser
                             .getAukioloItemsFromXml(getActivity(),
                                     R.raw.items_ao_baarit_iskelma));

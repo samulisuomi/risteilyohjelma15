@@ -1,8 +1,13 @@
 ﻿<ao>
-    <aukiolo>
+	<aukiolo>
 		<alkaa>20:15</alkaa>
 		<paattyy>05:00</paattyy>
 		<lisatieto></lisatieto>
+	</aukiolo>
+	<aukiolo>
+		<alkaa>23:00</alkaa>
+		<paattyy>05:00</paattyy>
+		<lisatieto>Yöruoka</lisatieto>
 	</aukiolo>
 	<aukiolo>
 		<alkaa>06:00</alkaa>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ohjelma version="1">>
+<ohjelma version="2">
 	<tapahtuma>
 		<alkaa>20:15</alkaa>
 		<paattyy></paattyy>
@@ -67,7 +67,7 @@
 	<tapahtuma>
 		<alkaa>23:30</alkaa>
 		<paattyy>00:30</paattyy>
-		<nimi>The 5th of April</nimi>
+		<nimi>MursuSikari</nimi>
 		<paikka>Starlight Palace</paikka>
 		<kuvaus></kuvaus>
 		<kansi>6-7</kansi>
@@ -114,7 +114,7 @@
 	</tapahtuma>
 	<tapahtuma>
 		<alkaa>12:00</alkaa>
-		<paattyy>12:30</paattyy>
+		<paattyy></paattyy>
 		<nimi>Tietovisa</nimi>
 		<paikka>Iskelmäbaari</paikka>
 		<kuvaus></kuvaus>
@@ -130,7 +130,7 @@
 	</tapahtuma>
 	<tapahtuma>
 		<alkaa>12:30</alkaa>
-		<paattyy>13:00</paattyy>
+		<paattyy></paattyy>
 		<nimi>Super Jackpot Bingo</nimi>
 		<paikka>Iskelmäbaari</paikka>
 		<kuvaus></kuvaus>
@@ -154,7 +154,7 @@
 	</tapahtuma>
 	<tapahtuma>
 		<alkaa>14:45</alkaa>
-		<paattyy>15:30</paattyy>
+		<paattyy></paattyy>
 		<nimi>Suomipop-musavisa</nimi>
 		<paikka>Starlight Palace</paikka>
 		<kuvaus></kuvaus>
