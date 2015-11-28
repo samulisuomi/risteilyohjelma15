@@ -2,7 +2,7 @@
 	<paikka>
 		<nimi>Tax Free</nimi>
 		<kansi>6</kansi>
-		<kuvaus>HUOM! Tax Freessä ei alkoholimyyntiä menomatkalla. Nuuskaa on myynnissä myös Klubissa yöllä klo 2 alkaen ja Buffet-aamiaisella.</kuvaus>
+		<kuvaus>HUOM! Tax Freessä ei alkoholimyyntiä menomatkalla. Nuuskaa on myynnissä myös Klubissa yöllä klo 2 alkaen.</kuvaus>
 	</paikka>
 	<paikka>
 		<nimi>Tax Free (alkoholimyynti)</nimi>
@@ -12,7 +12,7 @@
 	<paikka>
 		<nimi>Tax Free (nuuskan myynti)</nimi>
 		<kansi>6</kansi>
-		<kuvaus>Nuuskaa on myynnissä myös Klubissa yöllä klo 2 alkaen ja Buffet-aamiaisella.</kuvaus>
+		<kuvaus>Nuuskaa on myynnissä myös Klubissa yöllä klo 2 alkaen.</kuvaus>
 	</paikka>
 	<paikka>
 		<nimi>Tobacco</nimi>
